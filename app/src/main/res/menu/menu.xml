@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home"
+        android:title="@string/menu_home" />
+    <item
+        android:id="@+id/nav_pickup"
+        android:icon="@drawable/pickup2"
+        android:title="Ready for Pickup" />
+    <item
+        android:id="@+id/nav_shipping"
+        android:icon="@drawable/shipping3"
+        android:title="Shipping" />
+        <item
+            android:id="@+id/nav_delievered"
+            android:icon="@drawable/delivered4"
+            android:title="Delivered" />
+        <item
+            android:id="@+id/nav_all"
+            android:icon="@drawable/all3"
+            android:title="All Order" />
+        <item
+            android:id="@+id/nav_cancel"
+            android:icon="@drawable/cancel"
+            android:title="Cancel Order" />
+        <item
+            android:id="@+id/nav_pending"
+            android:icon="@drawable/pending2"
+            android:title="Pending" />
+
+    </group>
+</menu>
